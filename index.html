@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Home - Memória da Quebrada </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
-    
-    <div class="header">
-        <nav>
-            <a href="">Início</a>
-            <a href="">Explorar</a>
-            <a href="">Sobre</a>
-            <a href="">Parcerias</a>
-            <button><a href="">Compartilhar história</a></button>
+    <div class="nav-overflow" data-bs-toggle="nav-overflow">
+        <nav class="navbar bg-1 fg-2">
+        <div class="container-fluid">
+            <span id="teste" class="navbar-brand mb-0 h1">Memória <br> da Quebrada</span>
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./explorar.html">Explorar</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./parceiros.html">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Ajuda</a>
+                    </li>
+                </ul>
+                <form class="d-flex justify-content-end">
+                    <button class="btn-outline theme-success me-2" type="button">Compartilhar história</button>
+                </form>
+            </div>
         </nav>
     </div>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
 </body>
 </html>
