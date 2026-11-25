@@ -1,44 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Galindo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    background-color: #FFF3D6;
-    margin: 0px;
-
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF9EB;
 }
 
-.navbar{
-    background-color: #2D1D1A ;
-    padding: 20px 50px 20px 50px;
-    margin-left: auto;
+
+.navbar, .nav {
+    background-color: #2D1D1A;
+    --bs-nav-link-color: #FFEAB3;
+    --bs-nav-link-hover-color: #FFB800; 
+    --bs-navbar-active-color: #FFB800; 
+    --bs-nav-link-active-color: #FFB800;
+    padding-right: 5%;
 }
 
-.navbar-brand {
+.nav-underline .nav-link.active,
+.nav-underline .show > .nav-link {
+    color: #FFB800 ;            
+    border-bottom-color: #FFB800; 
+}
+
+.navbar-brand{
+    background-color: #2D1D1A;
     color:#E65100;
-    font-size: 24px;
     font-family: 'Galindo';
-    justify-self: center;
+    padding-left: 5%;
+    --bs-navbar-color: #E65100;
+    --bs-navbar-hover-color: #E65100;
+    --bs-navbar-disabled-color:#E65100;
+    --bs-navbar-active-color: #E65100;
+    --bs-navbar-brand-color: #E65100;
+    --bs-navbar-brand-hover-color: #E65100;
+    --bs-navbar-toggler-border-color: #E65100;
 }
+
+.btn-outline-success{
+    --bs-btn-color: #FFEAB3;
+    --bs-btn-bg: #E65100;
+    --bs-btn-border-color:#E65100;
+    --bs-btn-hover-color: #2D1D1A;
+    --bs-btn-hover-bg: #FFEAB3; 
+   --bs-btn-hover-border-color: #FFEAB3;
+} 
 
 .nav-item{
-    padding: 20px;
+    padding: 2%;
 }
-
-.nav-link{
-    background-color: #2D1D1A;
-    color:#FFEAB3;
-}
-
-.btn-outline{
-    color:#FFEAB3;
-    border-color: #E65100;
-    background-color: #E65100;
-    
-}
-
-.btn-outline:hover {
-    background-color: #FFEAB3;
-    color: #E65100;
-}
-
-
-
